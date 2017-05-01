@@ -1,0 +1,28 @@
+{
+  "name": "@footify/http-helper",
+  "version": "1.0.0",
+  "description": "Htpp helper",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/footify/http-helper.git"
+  },
+  "author": "Maxime Guedj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/footify/http-helper/issues"
+  },
+  "homepage": "https://github.com/footify/http-helper#readme",
+  "dependencies": {
+    "@footify/data-api": "git+ssh://git@github.com/footify/data-api.git",
+    "algoliasearch": "^3.22.1",
+    "joi": "^10.4.1",
+    "lodash": "^4.17.4",
+    "winston": "^2.3.1"
+  },
+  "files": [
+    "index.js",
+    "lib/"
+  ]
+}
