@@ -3,5 +3,7 @@ module.exports = {
     errors: require('./lib/error.const'),
     errorSchema: require('./lib/error.schema'),
     logger: require('./lib/logger'),
-    utils: require('./lib/utils')
+    utils: require('./lib/utils'),
+    sendReply: require('./lib/utils').sendReply,
+    handleError: require('./lib/utils').handleError
 };
