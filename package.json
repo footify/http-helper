@@ -17,6 +17,7 @@
   "dependencies": {
     "@footify/data-api": "git+https://github.com/footify/data-api.git",
     "algoliasearch": "^3.22.1",
+    "boom": "^4.3.1",
     "joi": "^10.4.1",
     "lodash": "^4.17.4",
     "winston": "^2.3.1"
